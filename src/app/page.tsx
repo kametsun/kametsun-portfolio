@@ -11,7 +11,7 @@ export default function Home() {
             <div className={"my-5"}>
                 <h1 className={"text-2xl"}>Hi✨</h1>
                 <p>
-                    I am Kametsn, college student majoring in computer science.
+                    I am kametsn, a computer science major in college.
                 </p>
             </div>
             <Links />
