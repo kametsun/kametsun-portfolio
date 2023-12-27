@@ -17,3 +17,7 @@ h1, h2, p {
     height: 100px;
     border-radius: 50%;
 }
+
+.footer p {
+    color: #A1A1AA;
+}
