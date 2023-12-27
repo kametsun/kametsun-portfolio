@@ -6,7 +6,6 @@ export const Navigation = () => {
                     <div
                         title={"Home"}
                         className={"shadow-lg border-gray-800 text-gray-800 dark:border-gray-300 dark:text-gray-300 p-1 cursor-pointer relative rounded-md transition duration-300 ease-in-out transform hover:text-gray-800 border hover:border-gray-800 dark:hover:border-gray-100 dark:hover:text-gray-100 hover:scale-105"}
-                        href={"/"}
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                              stroke="currentColor" className="w-6 h-6">
