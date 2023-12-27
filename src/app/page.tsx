@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import Link from "next/link";
 import {Links} from "@/app/components/Links";
+import {Navigation} from "@/app/components/navigation/Navigation";
 
 export default function Home() {
     return (
         <main className={"flex flex-col items-center justify-center py-52"}>
-            <div >
+            <div>
                 <Image className={"my-pic my-5"} src={"/images/my-pic.jpg"} alt={"my-pic"} width={100} height={100}/>
             </div>
             <div className={"my-5"}>
