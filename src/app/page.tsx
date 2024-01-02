@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from "next/link";
 import {Links} from "@/app/components/Links";
-import {Navigation} from "@/app/components/navigation/Navigation";
+import {Navigation} from "@/app/components/Navigation/Navigation";
 
 export default function Home() {
     return (
