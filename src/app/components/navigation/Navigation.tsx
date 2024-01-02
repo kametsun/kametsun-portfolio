@@ -1,6 +1,6 @@
 export const Navigation = () => {
     return(
-        <aside className={"fixed bottom-0 z-50 h-full"}>
+        <aside className={"fixed bottom-0 z-50 h-full invisible md:visible"}>
             <nav className={"flex items-center h-full p-3"}>
                 <ul className={"grid justify-center gap-4"}>
                     <a href={"/"}>
