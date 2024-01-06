@@ -5,7 +5,7 @@ import {Navigation} from "@/app/components/Navigation/Navigation";
 
 export default function Home() {
     return (
-        <main className={"flex flex-col items-center justify-center py-52"}>
+        <main className={"flex flex-col items-center justify-center pt-44 pb-24"}>
             <div>
                 <Image className={"my-pic my-5"} src={"/images/my-pic.jpg"} alt={"my-pic"} width={100} height={100}/>
             </div>
