@@ -3,7 +3,7 @@ import Link from "next/link";
 export const Links = () => {
     return (
         <div className={"links"}>
-            <Link href={"https://twitter.com/2__ba__3"}>
+            <Link href={"https://twitter.com/_kametsun_"}>
                 <button
                     className={"my-0 mx-2 bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"}
                 >
