@@ -5,7 +5,7 @@ export const Footer = (): ReactElement => {
   const year = new Date().getFullYear()
 
   return (
-        <div className={'flex flex-col items-center justify-center my-auto mx-auto'}>
+        <div className={'flex flex-col items-center justify-center my-auto mx-auto pb-3'}>
             <p>{year} kametsun</p>
         </div>
   )
