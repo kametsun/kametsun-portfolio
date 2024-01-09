@@ -4,6 +4,7 @@ import './globals.css'
 import { Footer } from '@/app/components/Footer/Footer'
 import { Navigation } from '@/app/components/Navigation/Navigation'
 import React, { type ReactElement } from 'react'
+import Header from '@/app/components/Header/Header'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +21,7 @@ export default function RootLayout ({
   return (
         <html lang="ja">
         <body className={inter.className}>
+        <Header/>
         <Navigation/>
         {children}
         <Footer/>
