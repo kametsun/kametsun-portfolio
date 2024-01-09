@@ -5,7 +5,7 @@ export const Profile = (): ReactElement => {
   const name: string = 'Tsubasa Kamekubo'
   return (
         <div id={'profile'}>
-            <div id={'about'} className={'my-12 w-9/10 bg-background bg-opacity-70 p-10 lg:my-48 lg:w-3/5 xl:w-1/2'}>
+            <div id={'about'} className={'my-12 w-9/10 bg-background bg-opacity-70 p-10 lg:my-48'}>
                 <h2 className={'w-fit border-b-2 border-b-emerald-400 text-2xl'}>
                     About
                 </h2>
