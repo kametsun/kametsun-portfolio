@@ -43,7 +43,6 @@ export const Menu = (): ReactElement => {
                         {link.text}
                     </a>
                 ))}
-
             </div>
         </div>
   )
