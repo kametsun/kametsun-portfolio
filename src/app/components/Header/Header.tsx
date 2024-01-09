@@ -1,18 +1,16 @@
-'use client'
-
 import React, { type ReactElement } from 'react'
-import { useRouter } from 'next/navigation'
+import { Logo } from '@/app/components/Header/Logo'
+import { Menu } from '@/app/components/Header/Menu'
 
 export default function Header (): ReactElement {
-  const router = useRouter()
-
   return (
-        <div className={'headerArea'}>
-            <h1 className={'headerText'} onClick={() => {
-              router.push('/')
-            }}>
-                kametsun
-            </h1>
+        <div id={'header'} className={'mt-3'}>
+            <nav className={'w-full'}>
+                <div className={'flex justify-between max-w-5xl mx-auto'}>
+                    <Logo/>
+                    <Menu/>
+                </div>
+            </nav>
         </div>
   )
 }
