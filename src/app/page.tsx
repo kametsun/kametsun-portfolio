@@ -1,6 +1,7 @@
 // @/src/app/page.tsx
 
 import Image from 'next/image'
+
 import { Links } from '@/app/components/Links'
 import { Typing } from '@/app/components/Typing'
 import { type ReactElement } from 'react'
