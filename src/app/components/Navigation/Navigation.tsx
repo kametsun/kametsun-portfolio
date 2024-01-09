@@ -1,12 +1,14 @@
-export const Navigation = () => {
-    return(
-        <aside className={"fixed bottom-0 z-50 h-full invisible md:visible"}>
-            <nav className={"flex items-center h-full p-3"}>
-                <ul className={"grid justify-center gap-4"}>
-                    <a href={"/"}>
+import { type ReactElement } from 'react'
+
+export const Navigation = (): ReactElement => {
+  return (
+        <aside className={'fixed bottom-0 z-50 h-full invisible md:visible'}>
+            <nav className={'flex items-center h-full p-3'}>
+                <ul className={'grid justify-center gap-4'}>
+                    <a href={'/'}>
                         <div
-                            title={"Home"}
-                            className={"shadow-lg border-gray-800 text-gray-800 dark:border-gray-300 dark:text-gray-300 p-1 cursor-pointer relative rounded-md transition duration-300 ease-in-out transform hover:text-gray-800 border hover:border-gray-800 dark:hover:border-gray-100 dark:hover:text-gray-100 hover:scale-105"}
+                            title={'Home'}
+                            className={'shadow-lg border-gray-800 text-gray-800 dark:border-gray-300 dark:text-gray-300 p-1 cursor-pointer relative rounded-md transition duration-300 ease-in-out transform hover:text-gray-800 border hover:border-gray-800 dark:hover:border-gray-100 dark:hover:text-gray-100 hover:scale-105'}
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                                  stroke="currentColor" className="w-6 h-6">
@@ -15,10 +17,10 @@ export const Navigation = () => {
                             </svg>
                         </div>
                     </a>
-                    <a href={"/about"}>
+                    <a href={'/about'}>
                         <div
-                            title={"About"}
-                            className={"shadow-lg border-gray-800 text-gray-800 dark:border-gray-300 dark:text-gray-300 p-1 cursor-pointer relative rounded-md transition duration-300 ease-in-out transform hover:text-gray-800 border hover:border-gray-800 dark:hover:border-gray-100 dark:hover:text-gray-100 hover:scale-105"}
+                            title={'About'}
+                            className={'shadow-lg border-gray-800 text-gray-800 dark:border-gray-300 dark:text-gray-300 p-1 cursor-pointer relative rounded-md transition duration-300 ease-in-out transform hover:text-gray-800 border hover:border-gray-800 dark:hover:border-gray-100 dark:hover:text-gray-100 hover:scale-105'}
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
                                  stroke="currentColor" className="w-6 h-6">
@@ -31,5 +33,5 @@ export const Navigation = () => {
                 </ul>
             </nav>
         </aside>
-    )
+  )
 }

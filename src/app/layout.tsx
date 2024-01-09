@@ -1,28 +1,29 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import {Footer} from "@/app/components/Footer/Footer";
-import {Navigation} from "@/app/components/Navigation/Navigation";
+import { Footer } from '@/app/components/Footer/Footer'
+import { Navigation } from '@/app/components/Navigation/Navigation'
+import React, { type ReactElement } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'kametsun',
-  description: 'kametsun site',
+  description: 'kametsun site'
 }
 
-export default function RootLayout({
-  children,
+export default function RootLayout ({
+  children
 }: {
   children: React.ReactNode
-}) {
+}): ReactElement {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Navigation />
+        <html lang="ja">
+        <body className={inter.className}>
+        <Navigation/>
         {children}
-        <Footer />
-      </body>
-    </html>
+        <Footer/>
+        </body>
+        </html>
   )
 }
