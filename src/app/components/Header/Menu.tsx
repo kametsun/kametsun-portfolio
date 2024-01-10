@@ -39,7 +39,7 @@ export const Menu = (): ReactElement => {
                 {links.map((link: Link, index: number) => (
                     <a href={link.href}
                        key={index}
-                       className={'block mx-4 mt-2 text-sm text-gray-700 capitalize lg:mt-0 dark:text-gray-200 hover:text-blue-600 dark:hover:text-indigo-400'}>
+                       className={'block mx-4 mt-2 text-sm text-gray-700 capitalize lg:mt-0 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-400'}>
                         {link.text}
                     </a>
                 ))}
