@@ -12,7 +12,7 @@ export const Event = (): ReactElement => {
 
   return (
         <div className="my-12 w-9/10 bg-background bg-opacity-70 p-4 md:p-10 lg:w-3/5 xl:w-1/2"><h1
-            className="w-fit border-b-2 border-emerald-400 text-2xl">Event</h1>
+            className="w-fit border-b-2 border-indigo-600 text-2xl">Event</h1>
             <table className="my-5 w-full table-auto">
                 <thead>
                 <tr>
@@ -23,12 +23,12 @@ export const Event = (): ReactElement => {
                 <tbody>
                 {events.map((event, index) => (
                     <tr key={index}
-                        className="hover:text-background. border-l border-emerald-400 bg-background">
+                        className="hover:text-background. border-l border-indigo-600 bg-background">
                         <td className="flex h-fit p-2 md:px-4 md:py-2">
                             <p>{event.date}</p>
                             <p className="ml-auto">▷</p>
                         </td>
-                        <td className="border-l border-emerald-400 p-2 md:px-4 md:py-2"
+                        <td className="border-l border-indigo-600 p-2 md:px-4 md:py-2"
                             style={{ whiteSpace: 'nowrap' }}>{event.content}</td>
                     </tr>
                 ))}
